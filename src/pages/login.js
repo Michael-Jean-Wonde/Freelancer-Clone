@@ -11,10 +11,6 @@ function Login() {
     const [password, setPassword] = useState("");
   
     const { user } = useSelector((state) => state.data);
-    // const [checked, setChecked] = useState(true);
-    // const handleChange = (event) => {
-    //     setChecked(event.target.checked);
-    // };
   
     let dispatch = useDispatch();
     let navigate = useNavigate();
@@ -27,8 +23,7 @@ function Login() {
     const signIn = (e) => {
       e.preventDefault();
       dispatch(loginInitiate(email, password));
-      setEmail('');
-      setPassword('');
+      navigate('/dashboard');
     };
 
     return (
@@ -51,14 +46,13 @@ function Login() {
                     <input type="password" placeholder="Password" value={password} onChange={e => setPassword(e.target.value)} />
                     <h5>
                         <Checkbox
-                            checked="false"
                             color="primary"
                             // onClick={handleChange}
                             inputProps={{ 'aria-label': 'secondary checkbox' }}
                         />
                     Remember Me
                     <span className="login__formMiddle-space">
-                            <Link>Forgot Password?</Link>
+                            <Link to="/">Forgot Password?</Link>
                         </span>
                     </h5>
                     <button onClick={signIn} type="submit" className="login__signInButton"> Log In</button>

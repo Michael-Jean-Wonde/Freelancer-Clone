@@ -53,3 +53,10 @@
   font-weight: bold;
   margin-right: 25px;
 }
+
+.header-option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}

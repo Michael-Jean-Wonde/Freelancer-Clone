@@ -7,15 +7,23 @@ import SmsIcon from '@material-ui/icons/Sms';
 import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Avatar } from '@material-ui/core';
-import { useStateValue } from '../StateProvider';
-import { auth } from '../firebase';
+import { useSelector, useDispatch } from "react-redux";
+import { logOutInitiate } from "../redux/actions";
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import Fade from '@material-ui/core/Fade';
 
 function Menus() {
-    const [{ user }, dispatch] = useStateValue();
-    const navigate = useNavigate();
+
+    const { user } = useSelector((state) => state.data);
+    let dispatch = useDispatch();
+    const handleAuth = () => {
+      if (user) {
+        dispatch(logOutInitiate());
+      }
+    };
+    // const [{ user }, dispatch] = useStateValue();
+    // const navigate = useNavigate();
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
 
@@ -27,12 +35,12 @@ function Menus() {
         setAnchorEl(null);
     };
 
-    const handleAuthentication = () => {
-        if (user) {
-            auth.signOut();
-        }
-        navigate("/login");
-    }
+    // const handleAuthentication = () => {
+    //     if (user) {
+    //         auth.signOut();
+    //     }
+    //     navigate("/login");
+    // }
 
     return (
         <div className="menus">
@@ -54,10 +62,12 @@ function Menus() {
                 </div>
 
                 <div className="menus__top--right">
-                    <Avatar src={user.photoURL ? user.photoURL : "http://dipendrachand.com.np/images/profilepic.jpg"} />
+                {/* {user.photoURL ? user.photoURL : "http://dipendrachand.com.np/images/profilepic.jpg"}  */}
+                    <Avatar src="http://dipendrachand.com.np/images/profilepic.jpg"/>
                     <span>
                         {/* <h4>{user?.email}</h4> */}
-                        <h4>{user?.email ? user?.email : 'chand.dipendra19@gmail.com'}</h4>
+                        {/* <h4>{user?.email ? user?.email : 'chand.dipendra19@gmail.com'}</h4> */}
+                        <h4>chand.dipendra19@gmail.com</h4>
                         <h5>Rs. 95825.00</h5>
                     </span>
                     <ExpandMoreIcon
@@ -73,7 +83,7 @@ function Menus() {
                     >
                         <MenuItem onClick={handleClose}>Profile</MenuItem>
                         <MenuItem onClick={handleClose}>My Account</MenuItem>
-                        <MenuItem onClick={handleAuthentication}>Logout</MenuItem>
+                        <MenuItem onClick={handleAuth}>Logout</MenuItem>
                     </Menu>
                 </div>
             </div>
@@ -91,4 +101,4 @@ function Menus() {
     )
 }
 
-export default Menus
+export default Menus;

@@ -54,7 +54,7 @@ function DashboardContent() {
                                 </TableRow>
                             </TableHead>
                             <TableBody>
-                                <TableCell align="left"><EmojiEventsIcon /> <Link>WordPress Website </Link></TableCell>
+                                <TableCell align="left"><EmojiEventsIcon /> <span>WordPress Website </span></TableCell>
                                 <TableCell align="right"> - </TableCell>
                                 <TableCell align="right"> - </TableCell>
                                 <TableCell align="right"> - </TableCell>
@@ -63,7 +63,7 @@ function DashboardContent() {
                         </Table>
                     </TableContainer>
                 </div>
-                <p><Link>View All <ArrowRightAltIcon /></Link></p>
+                <p><span>View All <ArrowRightAltIcon /></span></p>
             </div>
 
             {/* News Feed */}

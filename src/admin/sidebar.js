@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Sidebar.css';
+import './sidebar.css';
 import { Link } from 'react-router-dom';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
 import LinearProgress from '@material-ui/core/LinearProgress';
@@ -10,12 +10,11 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
 import FormLabel from '@material-ui/core/FormLabel';
 import { Button } from '@material-ui/core';
-import { useStateValue } from '../StateProvider';
-import { auth } from '../firebase';
+import {useSelector} from 'react-redux'
 
 
 function Sidebar() {
-    const [{ user }, dispatch] = useStateValue();
+    const { user } = useSelector((state) => state.data);
     const [value, setValue] = useState('');
 
     const handleChange = (event) => {
@@ -28,9 +27,9 @@ function Sidebar() {
             <div className="sidebar__cardone">
                 <div className="sidebar__cardone--title">
                     <p>Welcome back,</p>
-                    <h3>{user.displayName ? user.displayName : "Dipendra Bahadur Chand"}</h3>
+                    <h3>Michael Wondwosen</h3>
                     <span>
-                        <h3>-{user?.email}</h3>
+                        <h3>-userEmailHere</h3>
                         <h6>FREE MEMBER</h6>
                     </span>
                 </div>
@@ -44,14 +43,14 @@ function Sidebar() {
                 <div className="sidebar__cardone--english">
                     <span>
                         <ContactMailIcon />
-                        <p><Link>Pass the US English Exam - Level 1</Link></p>
+                        <p><span>Pass the US English Exam - Level 1</span></p>
                         <p>+20%</p>
                     </span>
                 </div>
                 <div className="sidebar__cardone--balance">
                     <span>
                         <p>Account balance</p>
-                        <p><Link>Deposit funds <ArrowRightAltIcon /></Link></p>
+                        <p><span>Deposit funds <ArrowRightAltIcon /></span></p>
                     </span>
                     <p>$0.00USD</p>
                 </div>
@@ -62,7 +61,7 @@ function Sidebar() {
             <div className="sidebar__cardtwo">
                 <span className="sidebar__cardtwo--title">
                     <h4>Bid Summary</h4>
-                    <p><Link>View Insights</Link></p>
+                    <p><span>View Insights</span></p>
                 </span>
                 <span>
                     <h5>Remaining</h5>
@@ -90,7 +89,7 @@ function Sidebar() {
                         <FormControlLabel value="other" control={<Radio />} label="Other" />
                     </RadioGroup>
                     <p>
-                        <Link> Skip Question</Link>
+                        <span> Skip Question</span>
                         <Button type="submit" variant="outlined" color="primary" >Submit Answer</Button>
                     </p>
                 </FormControl>

@@ -10,6 +10,8 @@ import Portfolio from './components/portfolio';
 import Footer from './components/footer';
 import SignUp from './pages/signup';
 import Login from './pages/login';
+import Dashboard from './admin/dashboard';
+import ProjectList from './pages/projectList';
 
 function App() {
   return (
@@ -31,6 +33,24 @@ function App() {
             element={
               <>
                 <Login />
+              </>
+            }
+          /> 
+          <Route
+            exact
+            path="/dashboard"
+            element={
+              <>
+                <Dashboard />
+              </>
+            }
+          />  
+          <Route
+            exact
+            path="/projectList"
+            element={
+              <>
+                <ProjectList />
               </>
             }
           />    

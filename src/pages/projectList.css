@@ -1,0 +1,160 @@
+.Container {
+  padding: 0 12px;
+  overflow: auto;
+}
+.container {
+  padding: 0 12px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow:auto;
+}
+
+.Card {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 0;
+  background: #fff;
+}
+
+.PageProjectViewDeleted-jobHeader {
+  font-size: 32px;
+  margin-top: 32px;
+}
+.PageProjectViewDeleted-jobHeader h3 {
+  margin-bottom: 20px;
+  line-height: 1.33;
+}
+
+.JobSearchCard-item {
+  padding: 0 24px;
+}
+
+.JobSearchCard-item-inner {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.JobSearchCard-item-inner {
+  border-bottom: 1px solid #dedede;
+  padding: 24px 0;
+}
+
+.JobSearchCard-primary {
+  word-break: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  display: table-cell;
+  padding-right: 24px;
+}
+
+.JobSearchCard-secondary {
+  vertical-align: top;
+}
+
+.JobSearchCard-primary-heading {
+  margin-bottom: 16px;
+}
+
+.JobSearchCard-primary-heading-link {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #0e1724;
+  font-weight: 700;
+  margin-right: 4px;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.1s ease-out;
+}
+a {
+  background-color: transparent;
+}
+
+.JobSearchCard-primary-heading-days {
+  margin-right: 12px;
+}
+
+.JobSearchCard-primary-heading-status {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  line-height: 1.2;
+  color: #5dc26a;
+  font-weight: 700;
+  margin-left: 0;
+}
+
+[data-tooltip] {
+  position: relative;
+  display: inline-block;
+}
+
+.Icon.is-success {
+  fill: #5dc26a;
+}
+.Icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+.Icon-image {
+  height: 24px;
+  vertical-align: middle;
+  width: 24px;
+}
+
+.JobSearchCard-primary-description {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  margin-bottom: 16px;
+  max-height: 96px;
+  overflow: hidden;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+p {
+  line-height: 1.4;
+}
+
+.JobSearchCard-primary-tagsLink {
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+.JobSearchCard-primary-tagsLink a {
+  text-decoration: none;
+  color: #007fed;
+  cursor: pointer;
+  transition: color 0.1s ease-out;
+}
+
+.JobSearchCard-primary-hidden {
+  display: none;
+}
+.JobSearchCard-primary-hidden {
+  margin-top: 16px;
+}
+
+.JobSearchCard-secondary {
+  display: table-cell;
+  padding-right: 0;
+  width: 160px;
+}
+.JobSearchCard-secondary {
+  vertical-align: top;
+}
+
+.JobSearchCard-secondary-price {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.JobSearchCard-secondary-entry {
+  font-size: 0.875rem;
+  line-height: 1.43;
+}
