@@ -1,0 +1,534 @@
+[_nghost-webapp-c179] {
+  padding-top: env(safe-area-inset-top);
+  display: block;
+}
+
+@media (min-width: 480px) {
+  .PagePostProject-header[_ngcontent-webapp-c179] {
+    display: block;
+    padding-bottom: 204px;
+  }
+}
+.PagePostProject-header[_ngcontent-webapp-c179] {
+  align-items: center;
+  background: linear-gradient(55deg, #164188, #007fed);
+  padding-top: 8px;
+}
+
+[size="tablet"][_nghost-webapp-c110] {
+  max-width: 768px;
+}
+@media (min-width: 768px) {
+  [data-support-notch="true"][_nghost-webapp-c110] {
+    padding-left: calc(env(safe-area-inset-left) + 12px);
+    padding-right: calc(env(safe-area-inset-right) + 12px);
+  }
+}
+[_nghost-webapp-c110] {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.PagePostProject-contentContainer[_ngcontent-webapp-c179] {
+  max-width: 790px;
+  position: relative;
+}
+[_nghost-webapp-c102] {
+  display: block;
+}
+
+[_nghost-webapp-c102] {
+  display: block;
+}
+@media (min-width: 960px) {
+  [data-margin-bottom-desktop="xlarge"] {
+    margin-bottom: 48px;
+  }
+}
+[data-size="xsmall"][_nghost-webapp-c125] {
+  font-size: 14px;
+  line-height: 1.43;
+}
+[_nghost-webapp-c125] {
+  color: #007fed;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.1s ease-out;
+}
+[data-size="xsmall"][_nghost-webapp-c125] .LinkElement[_ngcontent-webapp-c125] {
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  text-align: left;
+}
+[data-size="xsmall"][_nghost-webapp-c125] a {
+  text-decoration: none;
+}
+.LinkElement[_ngcontent-webapp-c125] [_nghost-webapp-c124],
+.LogoImg[_ngcontent-webapp-c124] {
+  display: block;
+}
+.LinkElement[_ngcontent-webapp-c125] [_nghost-webapp-c124] {
+  color: inherit;
+  cursor: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: left;
+}
+[data-size="small"][_nghost-webapp-c124],
+.LogoImg[data-size="small"][_ngcontent-webapp-c124] {
+  height: 32px;
+  width: 133px;
+}
+.LinkElement[_ngcontent-webapp-c125] [_nghost-webapp-c124],
+.LogoImg[_ngcontent-webapp-c124] {
+  display: block;
+}
+
+[_nghost-webapp-c102] {
+  display: block;
+}
+[_nghost-webapp-c109] {
+  display: block;
+}
+[data-color="light"][_ngcontent-webapp-c109] {
+  color: #f7f7f7;
+}
+[data-weight="bold"][_ngcontent-webapp-c109] {
+  font-weight: 700;
+}
+[_nghost-webapp-c109] h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+@media (min-width: 960px) {
+  [data-margin-bottom-desktop="mid"] {
+    margin-bottom: 24px;
+  }
+}
+@media (min-width: 960px) {
+  [data-size-desktop="xlarge"][_ngcontent-webapp-c109] {
+    font-size: 32px;
+    line-height: 1.37;
+  }
+}
+
+[data-type="paragraph"][_nghost-webapp-c113] {
+  display: block;
+}
+[data-type="paragraph"][_nghost-webapp-c113]
+  .NativeElement[_ngcontent-webapp-c113] {
+  display: inline;
+}
+[data-style="normal"][_ngcontent-webapp-c113] {
+  font-style: normal;
+}
+[data-color="light"][_ngcontent-webapp-c113] {
+  color: #f7f7f7;
+}
+[data-weight="normal"][_ngcontent-webapp-c113] {
+  font-weight: 400;
+}
+[data-size="xsmall"][_ngcontent-webapp-c113] {
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+/* ################# fl-container for the form #################### */
+/* fl-container */
+[size="desktop-large"][_nghost-webapp-c110] {
+  max-width: 1200px;
+}
+@media (min-width: 768px) {
+  [data-support-notch="true"][_nghost-webapp-c110] {
+    padding-left: calc(env(safe-area-inset-left) + 12px);
+    padding-right: calc(env(safe-area-inset-right) + 12px);
+  }
+}
+[_nghost-webapp-c110] {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* fl-bit */
+@media (min-width: 480px) {
+  .Container[_ngcontent-webapp-c244] {
+    padding-left: max(32px, env(safe-area-inset-left));
+    padding-right: max(32px, env(safe-area-inset-right));
+  }
+}
+@media (min-width: 480px) {
+  .Container[_ngcontent-webapp-c244] {
+    border-top: 1px solid #dedede;
+    padding: 24px 32px;
+    transform: translateY(-180px);
+  }
+}
+.Container[_ngcontent-webapp-c244] {
+  background-color: #fff;
+  margin-bottom: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 790px;
+  position: relative;
+}
+[_nghost-webapp-c102] {
+  display: block;
+}
+
+/* fl-bit in app-title */
+.SpinnerContainer[_ngcontent-webapp-c184] {
+  align-items: center;
+  display: flex;
+}
+/* fl-heading in fl-bit */
+[_nghost-webapp-c109] {
+  display: block;
+}
+[data-margin-bottom="xxxsmall"] {
+  margin-bottom: 4px;
+}
+/* h3 in fl-bit */
+[data-color="dark"][_ngcontent-webapp-c109] {
+  color: #0e1724;
+}
+[data-weight="bold"][_ngcontent-webapp-c109] {
+  font-weight: 700;
+}
+[data-size="mid"][_ngcontent-webapp-c109] {
+  font-size: 20px;
+  line-height: 1.4;
+}
+h3 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+/* input in app-title */
+[_nghost-webapp-c183] {
+  display: block;
+}
+[data-margin-bottom="large"] {
+  margin-bottom: 32px;
+}
+[_nghost-webapp-c102] {
+  display: block;
+}
+.ValidationError[_ngcontent-webapp-c183] {
+  display: flex;
+}
+
+.InputContainer[data-size="large"][_ngcontent-webapp-c183] {
+  height: 46px;
+  padding: 0;
+}
+.InputContainer[_ngcontent-webapp-c183] {
+  font-size: 14px;
+  line-height: 1.43;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #bec0c2;
+  border-radius: 0;
+  color: #0e1724;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.2s ease-out, border-color 0.3s ease-out;
+}
+[data-margin-bottom="none"] {
+  margin-bottom: 0;
+}
+
+.NativeElementContainer[_ngcontent-webapp-c183] {
+  font-size: 14px;
+  line-height: 1.43;
+  color: #0e1724;
+  flex: 1 1 100%;
+  height: 100%;
+}
+
+.NativeElement[data-size="large"][_ngcontent-webapp-c183] {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.NativeElement[_ngcontent-webapp-c183] {
+  border: 0;
+  display: inline-block;
+  flex: 0 1 auto;
+  font-family: inherit;
+  font-size: inherit;
+  height: 100%;
+  margin: 0;
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+  width: 100%;
+}
+.NativeElement input {
+  overflow: visible;
+}
+.NativeElement input {
+  line-height: 1.15;
+}
+
+/* ################# APP DESCRIPTION ############# */
+[_nghost-webapp-c109] {
+  display: block;
+}
+[data-margin-bottom="xxxsmall"] {
+  margin-bottom: 4px;
+}
+
+[data-margin-bottom="mid"] {
+  margin-bottom: 24px;
+}
+
+[data-margin-bottom="small"] {
+  margin-bottom: 16px;
+}
+
+[data-color="dark"][_ngcontent-webapp-c109] {
+  color: #0e1724;
+}
+[data-weight="bold"][_ngcontent-webapp-c109] {
+  font-weight: 700;
+}
+[data-size="mid"][_ngcontent-webapp-c109] {
+  font-size: 20px;
+  line-height: 1.4;
+}
+h3 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+[_nghost-webapp-c186] {
+  display: block;
+}
+[data-margin-bottom="xxxsmall"] {
+  margin-bottom: 4px;
+}
+
+.TextArea[_ngcontent-webapp-c186] {
+  font-size: 14px;
+  line-height: 1.43;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #bec0c2;
+  border-radius: 0;
+  color: #0e1724;
+  display: block;
+  max-height: inherit;
+  padding: 12px;
+  resize: vertical;
+  transition: all 0.2s ease-out, border-color 0.3s ease-out;
+  width: 100%;
+}
+.TextArea textarea {
+  font-family: inherit;
+}
+.TextArea textarea {
+  overflow: auto;
+}
+.TextArea textarea {
+  margin: 0;
+}
+
+[_nghost-webapp-c139] {
+  display: block;
+}
+
+.CharacterCountContainer[_ngcontent-webapp-c187] {
+  display: flex;
+  justify-content: flex-end;
+}
+[data-margin-bottom="xxsmall"] {
+  margin-bottom: 8px;
+}
+
+[data-type="paragraph"][_nghost-webapp-c113]
+  .NativeElement[_ngcontent-webapp-c113] {
+  display: inline;
+}
+[data-style="normal"][_ngcontent-webapp-c113] {
+  font-style: normal;
+}
+[data-color="mid"][_ngcontent-webapp-c113] {
+  color: #4d525b;
+}
+[data-weight="normal"][_ngcontent-webapp-c113] {
+  font-weight: 400;
+}
+[data-size="xxsmall"][_ngcontent-webapp-c113] {
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+
+/* ################# APP FILE UPLOAD ############# */
+.FileSelectCustom[_ngcontent-webapp-c190] {
+    margin-bottom: 16px;
+  }
+  [_nghost-webapp-c188] {
+    display: block;
+    position: relative;
+  }
+
+  .HiddenInput[_ngcontent-webapp-c188] {
+    height: 1px;
+    left: -10000px;
+    overflow: hidden;
+    position: absolute;
+    top: auto;
+    width: 1px;
+  }
+  .HiddenInput input {
+    font-family: inherit;
+  }
+  .HiddenInput input {
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+  }
+
+
+  .Content[_ngcontent-webapp-c188] {
+    display: flex;
+    flex: 1 0 100%;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+
+
+  @media (min-width: 480px){
+  .FileSelectCustom-uploadArea[_ngcontent-webapp-c190] {
+    border: 1px dashed #bec0c2;
+    border-radius: 0;
+    padding: 20px 16px;
+  }}
+  .FileSelectCustom-uploadArea[_ngcontent-webapp-c190] {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+  }
+    @media (min-width: 768px){
+  [data-margin-bottom-tablet="none"] {
+    margin-bottom: 0;
+  }}
+
+
+  [data-display="inline"][data-color][_nghost-webapp-c107] {
+    display: inline-block;
+  }
+  .FileSelectCustom-uploadBtn[_ngcontent-webapp-c190] {
+    flex: 0 0 auto;
+  }
+  [data-display="inline"][_nghost-webapp-c107] {
+    width: auto;
+  }
+  [data-size="small"][_nghost-webapp-c107] {
+    font-size: 14px;
+    line-height: 1.43;
+    padding: 6px 13px;
+  }
+  [data-color="transparent-dark"][_nghost-webapp-c107] {
+    background: transparent;
+    border-color: #75787d;
+    color: #4d525b;
+  }
+  [data-color][_nghost-webapp-c107] {
+    border: 1px solid;
+    border-radius: 0;
+    font-weight: 700;
+    text-align: center;
+  }
+  [_nghost-webapp-c107] {
+    cursor: pointer;
+    position: relative;
+  }
+
+
+  .ButtonElement[data-display="inline"][data-color][_ngcontent-webapp-c107] {
+    display: inline-block;
+  }
+  .ButtonElement[data-display="inline"][_ngcontent-webapp-c107] {
+    line-height: normal;
+    width: auto;
+  }
+  .ButtonElement[_ngcontent-webapp-c107] {
+    background: none;
+    border: 0;
+    color: inherit;
+    cursor: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+  }
+  .ButtonElement button, [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+  }
+  .ButtonElement button {
+    text-transform: none;
+  }
+  .ButtonElement button {
+    overflow: visible;
+  }
+  .ButtonElement button {
+    margin: 0;
+  }
+
+  [_nghost-webapp-c104] {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .IconContainer[data-color="dark"][_ngcontent-webapp-c104] {
+    fill: #4d525b;
+  }
+  .IconContainer[data-size="xsmall"][_ngcontent-webapp-c104] {
+    height: 12px;
+    width: 12px;
+  }
+  .IconContainer[_ngcontent-webapp-c104] {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  @media (min-width: 480px){
+  .FileSelectCustom-dragDropText[_ngcontent-webapp-c190] {
+    display: inline-block;
+    margin-left: 24px;
+  }}
+
+  [data-type="paragraph"][_nghost-webapp-c113] .NativeElement[_ngcontent-webapp-c113] {
+    display: inline;
+  }
+  [data-style="normal"][_ngcontent-webapp-c113] {
+    font-style: normal;
+  }
+  [data-color="mid"][_ngcontent-webapp-c113] {
+    color: #4d525b;
+  }
+  [data-weight="normal"][_ngcontent-webapp-c113] {
+    font-weight: 400;
+  }
+  [data-size="xsmall"][_ngcontent-webapp-c113] {
+    font-size: 14px;
+    line-height: 1.43;
+  }
+
+  [_nghost-webapp-c139] {
+    display: block;
+  }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './videoBanner.css';
+import { Link } from 'react-router-dom';
 
 function VideoBanner() {
     return (
@@ -10,7 +11,7 @@ function VideoBanner() {
                     Millions of people use freelancer.com to turn their ideas into reality.
                 </h4>
                 <button className="videoBanner__info--first">
-                    Hire a Freelancer
+                    <Link to='/proffessionalsList'>Hire a Freelancer</Link>
                 </button>
                 <button className="videoBanner__info--second">
                     Earn Money Freelancing

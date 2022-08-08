@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { logOutInitiate } from "../redux/actions";
 import ContactMailOutlinedIcon from "@mui/icons-material/ContactMailOutlined";
 
-function Header() {
+function EmployerHeader() {
   const { user } = useSelector((state) => state.data);
   let dispatch = useDispatch();
   const handleAuth = () => {
@@ -40,10 +40,7 @@ function Header() {
             </div>
           </Link>
         </h4>
-        <h4>
-          <Link to="/signup">Sign Up </Link>
-        </h4>
-        <button><Link to="/postProject">Post a project</Link></button>
+        <button><Link to="/projectList">Post a project</Link></button>
         <Link to="/checkout" className="header-link">
           <div className="header-basket">
             <ContactMailOutlinedIcon />
@@ -58,4 +55,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default EmployerHeader;
